@@ -31,11 +31,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">{t('footer.contact')}</h4>
             <a
-              href="mailto:hello@3awani.app"
+              href="mailto:imen.nourelhouda.boudjira@ensia.edu.dz"
               className="flex items-center gap-2 text-background/70 hover:text-primary transition-colors"
             >
               <Mail className="w-5 h-5" />
-              hello@3awani.app
+              imen.nourelhouda.boudjira@ensia.edu.dz
             </a>
           </div>
 

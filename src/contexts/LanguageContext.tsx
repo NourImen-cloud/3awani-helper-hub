@@ -15,7 +15,7 @@ const translations = {
     'nav.getNotified': 'Get Notified',
     'nav.features': 'Features',
     'nav.howItWorks': 'How It Works',
-    
+
     // Hero
     'hero.badge': 'Coming Soon',
     'hero.title': 'Your Local Services,',
@@ -24,7 +24,7 @@ const translations = {
     'hero.emailPlaceholder': 'Enter your email',
     'hero.notifyMe': 'Notify Me',
     'hero.emailSuccess': 'Thanks! We\'ll notify you when we launch.',
-    
+
     // Features
     'features.title': 'Services at Your Fingertips',
     'features.subtitle': 'Discover a wide range of professional services tailored to your needs',
@@ -36,7 +36,7 @@ const translations = {
     'features.beauty.description': 'Hairdressers, spa treatments, and wellness services brought to you.',
     'features.food.title': 'Food & Catering',
     'features.food.description': 'Local food vendors and catering services for every occasion.',
-    
+
     // How It Works
     'howItWorks.title': 'How It Works',
     'howItWorks.subtitle': 'Getting the service you need is as easy as 1-2-3',
@@ -46,19 +46,19 @@ const translations = {
     'howItWorks.step2.description': 'Choose your preferred provider and schedule at your convenience.',
     'howItWorks.step3.title': 'Enjoy',
     'howItWorks.step3.description': 'Sit back and let our verified professionals handle the rest.',
-    
+
     // Footer
     'footer.tagline': 'Making life easier, one service at a time.',
     'footer.contact': 'Contact Us',
     'footer.followUs': 'Follow Us',
-    'footer.rights': '© 2024 3awani. All rights reserved.',
+    'footer.rights': '© 2026 3awani. All rights reserved.',
   },
   ar: {
     // Navigation
     'nav.getNotified': 'أعلمني',
     'nav.features': 'الخدمات',
     'nav.howItWorks': 'كيف يعمل',
-    
+
     // Hero
     'hero.badge': 'قريباً',
     'hero.title': 'خدماتك المحلية،',
@@ -67,7 +67,7 @@ const translations = {
     'hero.emailPlaceholder': 'أدخل بريدك الإلكتروني',
     'hero.notifyMe': 'أعلمني',
     'hero.emailSuccess': 'شكراً! سنخبرك عند الإطلاق.',
-    
+
     // Features
     'features.title': 'خدمات في متناول يدك',
     'features.subtitle': 'اكتشف مجموعة واسعة من الخدمات المهنية المصممة لاحتياجاتك',
@@ -79,7 +79,7 @@ const translations = {
     'features.beauty.description': 'مصففو شعر وعلاجات سبا وخدمات عافية تصل إليك.',
     'features.food.title': 'الطعام والتموين',
     'features.food.description': 'بائعو طعام محليون وخدمات تموين لكل مناسبة.',
-    
+
     // How It Works
     'howItWorks.title': 'كيف يعمل',
     'howItWorks.subtitle': 'الحصول على الخدمة التي تحتاجها سهل كـ 1-2-3',
@@ -89,12 +89,12 @@ const translations = {
     'howItWorks.step2.description': 'اختر مقدم الخدمة المفضل لديك وحدد موعداً يناسبك.',
     'howItWorks.step3.title': 'استمتع',
     'howItWorks.step3.description': 'استرخِ ودع المحترفين الموثوقين يتولون الباقي.',
-    
+
     // Footer
     'footer.tagline': 'نجعل الحياة أسهل، خدمة تلو الأخرى.',
     'footer.contact': 'اتصل بنا',
     'footer.followUs': 'تابعنا',
-    'footer.rights': '© 2024 3awani. جميع الحقوق محفوظة.',
+    'footer.rights': '© 2026 3awani. جميع الحقوق محفوظة.',
   },
 };
 
