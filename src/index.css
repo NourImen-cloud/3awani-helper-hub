@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3awani Design System - Teal/Green Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 180 20% 99%;
+    --foreground: 180 30% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 180 30% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 180 30% 10%;
+
+    --primary: 168 53% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 168 30% 95%;
+    --secondary-foreground: 168 53% 30%;
+
+    --muted: 180 15% 95%;
+    --muted-foreground: 180 10% 45%;
+
+    --accent: 168 40% 90%;
+    --accent-foreground: 168 53% 30%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 180 15% 90%;
+    --input: 180 15% 90%;
+    --ring: 168 53% 40%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 168 53% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 168 30% 95%;
+    --sidebar-accent-foreground: 168 53% 30%;
+    --sidebar-border: 180 15% 90%;
+    --sidebar-ring: 168 53% 40%;
+  }
+
+  .dark {
+    --background: 180 30% 6%;
+    --foreground: 180 20% 98%;
+
+    --card: 180 25% 10%;
+    --card-foreground: 180 20% 98%;
+
+    --popover: 180 25% 10%;
+    --popover-foreground: 180 20% 98%;
+
+    --primary: 168 53% 45%;
+    --primary-foreground: 180 30% 6%;
+
+    --secondary: 180 20% 15%;
+    --secondary-foreground: 180 20% 98%;
+
+    --muted: 180 20% 15%;
+    --muted-foreground: 180 15% 60%;
+
+    --accent: 180 20% 15%;
+    --accent-foreground: 180 20% 98%;
+
+    --destructive: 0 62.8% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 180 20% 18%;
+    --input: 180 20% 18%;
+    --ring: 168 53% 45%;
+
+    --sidebar-background: 180 25% 8%;
+    --sidebar-foreground: 180 20% 98%;
+    --sidebar-primary: 168 53% 45%;
+    --sidebar-primary-foreground: 180 30% 6%;
+    --sidebar-accent: 180 20% 15%;
+    --sidebar-accent-foreground: 180 20% 98%;
+    --sidebar-border: 180 20% 18%;
+    --sidebar-ring: 168 53% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', 'Noto Sans Arabic', sans-serif;
+  }
+
+  html[lang="ar"] body {
+    font-family: 'Noto Sans Arabic', 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-float-delayed {
+    animation: float 3s ease-in-out infinite 1.5s;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
